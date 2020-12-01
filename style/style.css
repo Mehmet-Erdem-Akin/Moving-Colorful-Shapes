@@ -1,0 +1,111 @@
+header {
+  height: 100vh;
+  width: auto;
+  background-color: whitesmoke; }
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 3em !important; } }
+  header .bir {
+    position: absolute;
+    background-color: #b832b8;
+    height: 100px;
+    width: 100px;
+    -webkit-box-shadow: 0px 0px 39px 5px #b832b8;
+    -moz-box-shadow: 0px 0px 39px 5px #b832b8;
+    box-shadow: 0px 0px 39px 5px #b832b8;
+    border-radius: 100%;
+    right: 0;
+    animation: bir 40s infinite;
+    opacity: 0.7; }
+  header .iki {
+    position: absolute;
+    background-color: #4f32b8;
+    -webkit-box-shadow: 0px 0px 39px 5px #4f32b8;
+    -moz-box-shadow: 0px 0px 39px 5px #4f32b8;
+    box-shadow: 0px 0px 39px 5px #4f32b8;
+    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+    right: -30px;
+    animation: iki 35s infinite;
+    opacity: 0.7; }
+  header .uc {
+    position: absolute;
+    background-color: #e7c500;
+    -webkit-box-shadow: 0px 0px 39px 5px #e7c500;
+    -moz-box-shadow: 0px 0px 39px 5pxrgb 231, 197, 0;
+    box-shadow: 0px 0px 39px 5px #e7c500;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    right: 140px;
+    opacity: 0.7;
+    animation: uc 50s infinite; }
+  header .dort {
+    position: absolute;
+    background-color: #00a81c;
+    -webkit-box-shadow: 0px 0px 39px 5px #00a81c;
+    -moz-box-shadow: 0px 0px 39px 5px #00a81c;
+    box-shadow: 0px 0px 39px 5px #00a81c;
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    right: 200px;
+    opacity: 0.7;
+    animation: dort 30s infinite; }
+@keyframes bir {
+  0% {
+    top: 200px;
+    right: 0; }
+  50% {
+    right: 500px;
+    transform: rotate(20deg) translateX(400px); }
+  100% {
+    top: 200px;
+    right: 0px; } }
+@keyframes iki {
+  0% {
+    right: 100px; }
+  50% {
+    transform: rotate(30deg) translateY(90vh); }
+  100% {
+    right: 100px; } }
+@keyframes uc {
+  0% {
+    top: 400px;
+    right: 0; }
+  50% {
+    transform: rotate(-10deg) translateX(-100vh); }
+  100% {
+    top: 400px;
+    right: 0px; } }
+@keyframes dort {
+  0% {
+    right: 0; }
+  50% {
+    transform: rotate(-45deg) translateX(-100vh); }
+  100% {
+    right: 0px; } }
+  header #intro {
+    position: relative;
+    z-index: 3;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../img/2.jpg") !important;
+    background-attachment: fixed; }
+    header #intro h1 {
+      font-size: 5em;
+      color: #161D23;
+      font-family: 'Sansita Swashed', cursive; }
+    header #intro p {
+      font-size: 20px;
+      color: #161D23; }
+    header #intro .btn {
+      background-color: #008EA1;
+      color: white; }
+      header #intro .btn:hover {
+        background-color: #161D23; }
+    header #intro hr {
+      border: 2px solid #161D23; }
+
+/*# sourceMappingURL=style.css.map */

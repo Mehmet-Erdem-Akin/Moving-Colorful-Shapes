@@ -1,0 +1,140 @@
+header {
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 3em !important;
+        }
+    }
+    height: 100vh;
+    width: auto;
+    background-color: whitesmoke;
+    .bir {
+        position: absolute;
+        background-color: rgba(184, 50, 184, 1);
+        height: 100px;
+        width: 100px;
+        -webkit-box-shadow: 0px 0px 39px 5px rgba(184, 50, 184, 1);
+        -moz-box-shadow: 0px 0px 39px 5px rgba(184, 50, 184, 1);
+        box-shadow: 0px 0px 39px 5px rgba(184, 50, 184, 1);
+        border-radius: 100%;
+        right: 0;
+        animation: bir 40s infinite;
+        opacity: 0.7;
+    }
+    .iki {
+        position: absolute;
+        background-color: rgb(79, 50, 184);
+        -webkit-box-shadow: 0px 0px 39px 5px rgb(79, 50, 184);
+        -moz-box-shadow: 0px 0px 39px 5px rgb(79, 50, 184);
+        box-shadow: 0px 0px 39px 5px rgb(79, 50, 184);
+        border-radius: 100%;
+        height: 90px;
+        width: 90px;
+        right: -30px;
+        animation: iki 35s infinite;
+        opacity: 0.7;
+    }
+    .uc {
+        position: absolute;
+        background-color: rgb(231, 197, 0);
+        -webkit-box-shadow: 0px 0px 39px 5px rgb(231, 197, 0);
+        -moz-box-shadow: 0px 0px 39px 5pxrgb(231, 197, 0);
+        box-shadow: 0px 0px 39px 5px rgb(231, 197, 0);
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        right: 140px;
+        opacity: 0.7;
+        animation: uc 50s infinite;
+    }
+    .dort {
+        position: absolute;
+        background-color: rgb(0, 168, 28);
+        -webkit-box-shadow: 0px 0px 39px 5px rgb(0, 168, 28);
+        -moz-box-shadow: 0px 0px 39px 5px rgb(0, 168, 28);
+        box-shadow: 0px 0px 39px 5px rgb(0, 168, 28);
+        border-radius: 100%;
+        height: 75px;
+        width: 75px;
+        right: 200px;
+        opacity: 0.7;
+        animation: dort 30s infinite;
+    }
+    @keyframes bir {
+        0% {
+            top: 200px;
+            right: 0;
+        }
+        50% {
+            right: 500px;
+            transform: rotate(20deg) translateX(400px);
+        }
+        100% {
+            top: 200px;
+            right: 0px;
+        }
+    }
+    @keyframes iki {
+        0% {
+            right: 100px;
+        }
+        50% {
+            transform: rotate(30deg) translateY(90vh);
+        }
+        100% {
+            right: 100px;
+        }
+    }
+    @keyframes uc {
+        0% {
+            top: 400px;
+            right: 0;
+        }
+        50% {
+            //right: 100vw;
+            transform: rotate(-10deg) translateX(-100vh);
+        }
+        100% {
+            top: 400px;
+            right: 0px;
+        }
+    }
+    @keyframes dort {
+        0% {
+            right: 0;
+        }
+        50% {
+            //right: 100vw;
+            transform: rotate(-45deg) translateX(-100vh);
+        }
+        100% {
+            right: 0px;
+        }
+    }
+    #intro {
+        position: relative;
+        z-index: 3;
+        height: 100vh;
+        background-size: cover;
+        background-image: url('../img/2.jpg') !important;
+        background-attachment: fixed;
+        h1 {
+            font-size: 5em;
+            color: #161D23;
+            font-family: 'Sansita Swashed', cursive;
+        }
+        p {
+            font-size: 20px;
+            color: #161D23;
+        }
+        .btn {
+            background-color: #008EA1;
+            color: white;
+            &:hover {
+                background-color: #161D23;
+            }
+        }
+        hr {
+            border: 2px solid #161D23;
+        }
+    }
+}
